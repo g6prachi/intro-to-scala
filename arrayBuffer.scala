@@ -50,7 +50,7 @@ object arrayBuffer extends App {
   ab.remove(1)
   // Deletes element at index 1
 
-  for(el <- ab) print(el + " ")
+  for(i <- 0 until ab.length) print(ab(i) + " ")
   println()
 
   ab.remove(1, 3)
@@ -64,5 +64,5 @@ object arrayBuffer extends App {
 
   ab.toBuffer
   // To convert array to array buffer
-  
+
 }
