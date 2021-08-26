@@ -1,0 +1,20 @@
+
+Workflow for WNCP deployment in detail:
+Git -> Concord -> Looper -> Concord -> Kubernetes
+
+
+Components of Kubernetes, smallest to largest:
+-> Container : Microservices run inside of a container. Usually, there is one microservice per container.
+-> Pod : Management wrapper around the container. Usually, 1:1 relationship between containers and pods.
+-> Node : VM or physical machine responsible for running pods. Usually, one node would run many pods.
+-> CLuster : Set of nodes that run containerized applications. Typically contains 5 to 500 nodes.
+
+
+DevOps
+-> Systematic approach to integrate people, tools, processes, and products to accelerate application delivery.
+-> Improves collaboration — from planning, building, deploying and operating, to supporting. 
+-> Focuses on end-user success and increases productivity by:
+	1) Removing waste
+	2) Continuously deploying innovative solutions
+	3) Improving quality and efficiency
+	4) Reducing cost
